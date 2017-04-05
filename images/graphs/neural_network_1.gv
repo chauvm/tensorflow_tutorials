@@ -1,0 +1,107 @@
+digraph "Neural Network" {
+	graph [rankdir=LR]
+	node [shape=circle]
+	edge [arrowsize=0.1 minlen=1.4]
+		out_0 [label=""]
+		l_2_0 [label=""]
+			l_2_0 -> out_0 [samehead=out_0 sametail=l_2_0]
+		l_2_1 [label=""]
+			l_2_1 -> out_0 [samehead=out_0 sametail=l_2_1]
+		l_2_2 [label=""]
+			l_2_2 -> out_0 [samehead=out_0 sametail=l_2_2]
+		l_2_3 [label=""]
+			l_2_3 -> out_0 [samehead=out_0 sametail=l_2_3]
+		out_1 [label=""]
+		l_2_0 [label=""]
+			l_2_0 -> out_1 [samehead=out_1 sametail=l_2_0]
+		l_2_1 [label=""]
+			l_2_1 -> out_1 [samehead=out_1 sametail=l_2_1]
+		l_2_2 [label=""]
+			l_2_2 -> out_1 [samehead=out_1 sametail=l_2_2]
+		l_2_3 [label=""]
+			l_2_3 -> out_1 [samehead=out_1 sametail=l_2_3]
+		l_1_0 [label=""]
+			l_1_0 -> l_2_0 [samehead=l_2_0 sametail=l_1_0]
+		l_1_1 [label=""]
+			l_1_1 -> l_2_0 [samehead=l_2_0 sametail=l_1_1]
+		l_1_2 [label=""]
+			l_1_2 -> l_2_0 [samehead=l_2_0 sametail=l_1_2]
+		l_1_3 [label=""]
+			l_1_3 -> l_2_0 [samehead=l_2_0 sametail=l_1_3]
+		l_1_4 [label=""]
+			l_1_4 -> l_2_0 [samehead=l_2_0 sametail=l_1_4]
+		l_1_5 [label=""]
+			l_1_5 -> l_2_0 [samehead=l_2_0 sametail=l_1_5]
+		l_1_0 [label=""]
+			l_1_0 -> l_2_1 [samehead=l_2_1 sametail=l_1_0]
+		l_1_1 [label=""]
+			l_1_1 -> l_2_1 [samehead=l_2_1 sametail=l_1_1]
+		l_1_2 [label=""]
+			l_1_2 -> l_2_1 [samehead=l_2_1 sametail=l_1_2]
+		l_1_3 [label=""]
+			l_1_3 -> l_2_1 [samehead=l_2_1 sametail=l_1_3]
+		l_1_4 [label=""]
+			l_1_4 -> l_2_1 [samehead=l_2_1 sametail=l_1_4]
+		l_1_5 [label=""]
+			l_1_5 -> l_2_1 [samehead=l_2_1 sametail=l_1_5]
+		l_1_0 [label=""]
+			l_1_0 -> l_2_2 [samehead=l_2_2 sametail=l_1_0]
+		l_1_1 [label=""]
+			l_1_1 -> l_2_2 [samehead=l_2_2 sametail=l_1_1]
+		l_1_2 [label=""]
+			l_1_2 -> l_2_2 [samehead=l_2_2 sametail=l_1_2]
+		l_1_3 [label=""]
+			l_1_3 -> l_2_2 [samehead=l_2_2 sametail=l_1_3]
+		l_1_4 [label=""]
+			l_1_4 -> l_2_2 [samehead=l_2_2 sametail=l_1_4]
+		l_1_5 [label=""]
+			l_1_5 -> l_2_2 [samehead=l_2_2 sametail=l_1_5]
+		l_1_0 [label=""]
+			l_1_0 -> l_2_3 [samehead=l_2_3 sametail=l_1_0]
+		l_1_1 [label=""]
+			l_1_1 -> l_2_3 [samehead=l_2_3 sametail=l_1_1]
+		l_1_2 [label=""]
+			l_1_2 -> l_2_3 [samehead=l_2_3 sametail=l_1_2]
+		l_1_3 [label=""]
+			l_1_3 -> l_2_3 [samehead=l_2_3 sametail=l_1_3]
+		l_1_4 [label=""]
+			l_1_4 -> l_2_3 [samehead=l_2_3 sametail=l_1_4]
+		l_1_5 [label=""]
+			l_1_5 -> l_2_3 [samehead=l_2_3 sametail=l_1_5]
+		x1
+			x1 -> l_1_0 [samehead=l_1_0 sametail=x1]
+		x2
+			x2 -> l_1_0 [samehead=l_1_0 sametail=x2]
+		x3
+			x3 -> l_1_0 [samehead=l_1_0 sametail=x3]
+		x1
+			x1 -> l_1_1 [samehead=l_1_1 sametail=x1]
+		x2
+			x2 -> l_1_1 [samehead=l_1_1 sametail=x2]
+		x3
+			x3 -> l_1_1 [samehead=l_1_1 sametail=x3]
+		x1
+			x1 -> l_1_2 [samehead=l_1_2 sametail=x1]
+		x2
+			x2 -> l_1_2 [samehead=l_1_2 sametail=x2]
+		x3
+			x3 -> l_1_2 [samehead=l_1_2 sametail=x3]
+		x1
+			x1 -> l_1_3 [samehead=l_1_3 sametail=x1]
+		x2
+			x2 -> l_1_3 [samehead=l_1_3 sametail=x2]
+		x3
+			x3 -> l_1_3 [samehead=l_1_3 sametail=x3]
+		x1
+			x1 -> l_1_4 [samehead=l_1_4 sametail=x1]
+		x2
+			x2 -> l_1_4 [samehead=l_1_4 sametail=x2]
+		x3
+			x3 -> l_1_4 [samehead=l_1_4 sametail=x3]
+		x1
+			x1 -> l_1_5 [samehead=l_1_5 sametail=x1]
+		x2
+			x2 -> l_1_5 [samehead=l_1_5 sametail=x2]
+		x3
+			x3 -> l_1_5 [samehead=l_1_5 sametail=x3]
+}
