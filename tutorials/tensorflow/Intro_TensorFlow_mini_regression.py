@@ -14,7 +14,7 @@ with tf.name_scope("cost_function") as scope:
 	cost = (y_correct - y)**2
 
 with tf.name_scope("train_step") as scope:
-	train_step = tf.train.GradientDescentOptimizer(0.025).minimize(cost)
+	train_step = tf.train.GradientDescentOptimizer(0.5).minimize(cost)
 
 sess = tf.Session()
 file_writer = tf.summary.FileWriter("Lab2", sess.graph)
@@ -35,3 +35,4 @@ for i in range(100):
 		
 	# Gọi bước học tiếp theo
 	sess.run(train_step)
+sess.close()
