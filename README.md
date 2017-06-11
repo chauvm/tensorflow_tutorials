@@ -8,5 +8,5 @@ Credits:
 * Vũ Minh Châu, MIT'14
 * Nguyễn Vương Linh, MIT'17
 * Nguyễn Tài Long, UET
-* Nguyển Minh Châu, UET
+* Nguyễn Minh Châu, UET
 * Vũ Thanh Lâm, UET
